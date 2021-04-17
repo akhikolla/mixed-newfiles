@@ -1,0 +1,46 @@
+fuzzer_type package function.name error.kind error.line
+1 AFL bzinb em UninitCondition em.cpp : 24
+2 AFL ECctmc sample_path_mr InvalidRead simulation_functions.cpp : 47
+3 AFL fastkmedoids pam InvalidRead pam.h : 163
+4 AFL fcaR flatten_sparse_C InvalidRead subsetting.cpp : 401
+5 AFL fcaR set_difference InvalidWrite vector_operations.cpp : 49
+6 AFL fcaR set_difference_single InvalidWrite vector_operations.cpp : 49
+7 AFL pcIRT gamfunk InvalidWrite gamfunk.cpp : 15
+8 AFL peppm getGrid InvalidRead library.cpp : 81
+9 AFL pgdraw rcpp_pgdraw InvalidRead rcpp_pgdraw.cpp : 68
+fuzzer_type package function.name error.kind error.line
+1 AFL TreeLS thinCloud InvalidRead utils.cpp : 341
+2 AFL bbl mfwrapper InvalidRead mfwrapper.cpp : 15
+fuzzer_type package function.name error.kind error.line
+1 AFL cytometree FmeasureC UninitCondition FmeasureC.cpp : 40
+2 AFL cytometree FmeasureC_no0 InvalidRead FmeasureC.cpp : 100
+
+
+
+
+fuzzer_type package function.name error.kind error.line
+1 AFL hans haversine UninitCondition haversine.cpp : 30
+
+
+
+fuzzer_type package function.name error.kind error.line
+1 AFL nandb cross_var_Cpp InvalidRead cross_var.cpp : 6
+2 AFL WinRatio comp_repeated_cpp InvalidWrite cpp_functions.cpp : 99
+3 AFL BLPestimatoR getExpMu InvalidRead cppFunctions.cpp : 111
+4 AFL BLPestimatoR getSij InvalidRead cppFunctions.cpp : 32
+fuzzer_type package function.name error.kind error.line
+1 AFL ECctmc sample_path_mr InvalidRead simulation_functions.cpp : 47
+fuzzer_type package function.name error.kind error.line
+1 AFL fastkmedoids pam InvalidRead pam.h : 163
+2 AFL fcaR flatten_sparse_C InvalidRead subsetting.cpp : 401
+3 AFL fcaR set_difference InvalidWrite vector_operations.cpp : 49
+4 AFL fcaR set_difference_single InvalidWrite vector_operations.cpp : 49
+5 AFL geodiv sfd_ InvalidRead sfd.cpp : 114
+6 AFL kdecopula interp_2d UninitValue interp.cpp : 138
+
+fuzzer_type package function.name error.kind error.line
+1 AFL pseudorank psrankCpp InvalidRead pseudorank.cpp : 40
+2 AFL pseudorank psrankMaxCpp UninitCondition pseudorank.cpp : 170
+3 AFL pseudorank psrankMinCpp InvalidRead pseudorank.cpp : 105
+4 AFL TDA Bottleneck UninitCondition diag.cpp : 145
+5 AFL TDA Wasserstein UninitCondition diag.cpp : 157
